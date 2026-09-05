@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>About Me — RAJ</title>
+    <meta charset="UTF-8">
+    <title>About Me — Elie Hadchity</title>
 </head>
 <body>
 
@@ -16,10 +16,14 @@
             <li><a href="#background">Background</a></li>
             <li><a href="#interests">Interests</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Page</a></li>
         </ul>
     </nav>
 
     <main>
+
+        <img src="Kaeid.jpg" alt="Elie Hadchity, on the right, outdoors">
 
         <section id="background">
             <h2>Background</h2>
@@ -39,7 +43,7 @@
             <h2>Interests</h2>
             <p>
                 Outside of class I spend my time on inspecting ghewe and
-                inspecting ghewe what do youexpect. I am curious about how the tools I use
+                inspecting ghewe what do you expect. I am curious about how the tools I use
                 every day are actually built.
             </p>
             <p>
@@ -57,16 +61,28 @@
                 or find my work on
                 <a href="https://github.com/Hadchh/shadow-agent-output">GitHub</a>.
             </p>
+
+            <form action="/submit" method="post">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </section>
 
     </main>
 
     <footer>
         <p>
-            Created by Elie Hadchity for
-            <a href="#background">Web Programming, Semester 1</a>.
+            Created by Elie Hadchity for Web Programming, Semester 7.
             Last updated
-            <time datetime="2026-09-03">3 September 2026</time>.
+            <time datetime="2026-09-05">5 September 2026</time>.
         </p>
     </footer>
 
